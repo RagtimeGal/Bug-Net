@@ -144,3 +144,7 @@ execute store success score @s rag_net.temp if data storage rag_net:storage root
 execute store success score @s rag_net.temp if data storage rag_net:storage root.temp.item.tag.rag_net{entity_id:"minecraft:zombie_villager"} run summon zombie_villager ~ ~0.01 ~ {Tags:["rag_net.newly_spawned"]}
 # zombified_piglin
 execute store success score @s rag_net.temp if data storage rag_net:storage root.temp.item.tag.rag_net{entity_id:"minecraft:zombified_piglin"} run summon zombified_piglin ~ ~0.01 ~ {Tags:["rag_net.newly_spawned"]}
+# iron_golem
+execute store success score @s rag_net.temp if data storage rag_net:storage root.temp.item.tag.rag_net{entity_id:"minecraft:iron_golem"} run summon iron_golem ~ ~0.01 ~ {Tags:["rag_net.newly_spawned"]}
+# snow_golem
+execute store success score @s rag_net.temp if data storage rag_net:storage root.temp.item.tag.rag_net{entity_id:"minecraft:snow_golem"} run summon snow_golem ~ ~0.01 ~ {Tags:["rag_net.newly_spawned"]}
