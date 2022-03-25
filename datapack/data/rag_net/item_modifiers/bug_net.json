@@ -1,0 +1,42 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "rag_net:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag",
+        "target": "{}",
+        "op": "merge"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "lore.rag_net.item.bug_net.captured",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "selector": "@s"
+          }
+        ]
+      },
+      {
+        "translate": "pack.rag_net",
+        "color": "#666666",
+        "italic": true
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:409998}"
+  }
+]

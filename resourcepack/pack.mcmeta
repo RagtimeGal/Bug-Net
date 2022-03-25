@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "description": [
+      {
+        "color": "#666666",
+        "text": "Bug Net"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "color": "#666666",
+        "text": "v0.1"
+      }
+    ],
+    "pack_format": 8
+  }
+}

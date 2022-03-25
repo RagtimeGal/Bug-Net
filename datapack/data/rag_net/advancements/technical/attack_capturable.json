@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "items": ["minecraft:carrot_on_a_stick"],
+                "nbt": "{rag_net:{id:\"bug_net\",full:0b}}"
+              }
+            }
+          }
+        }
+      },
+        "entity": {
+          "type": "#rag_net:capturable"
+        }
+    }
+  },
+  "rewards": {
+    "function": "rag_net:bug_net/capture_mob/item"
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 409998
+			},
+			"model": "rag_net:item/bug_net_captured"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 409999
+			},
+			"model": "rag_net:item/bug_net_empty"
+		}
+	]
+}
