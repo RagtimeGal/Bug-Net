@@ -1,0 +1,14 @@
+{
+  "rewards": {
+    "function":"rag_net:recipes/bug_net",
+    "loot": ["rag_net:items/bug_net"]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rag_net:bug_net"
+      }
+    }
+  }
+}
