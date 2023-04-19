@@ -1,8 +1,0 @@
-{
-  "item.minecraft.knowledge_book": "Click to Craft",
-  "pack.rag_net": "Bug Net",
-
-  "item.rag_net.bug_net": "Bug Net",
-  "lore.rag_net.item.bug_net.captured": "Captured: %s",
-  "lore.rag_net.item.bug_net.empty": "Nothing"
-}

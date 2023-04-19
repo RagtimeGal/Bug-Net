@@ -8,13 +8,13 @@
 			"predicate": {
 				"custom_model_data": 409998
 			},
-			"model": "rag_net:item/bug_net_captured"
+			"model": "bugnet:item/bug_net_captured"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 409999
 			},
-			"model": "rag_net:item/bug_net_empty"
+			"model": "bugnet:item/bug_net_empty"
 		}
 	]
 }

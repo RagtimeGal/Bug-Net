@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:4,Unbreakable:1b,bugnet:{id:\"bug_net\",full:0},CustomModelData:409999}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.bugnet.bug_net",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "lore.bugnet.item.bug_net.empty",
+                  "color": "white",
+                  "italic": false,
+                  "font": "bugnet:entity_ensigna",
+                  "with": [
+                    {
+                      "translate": "lore.bugnet.item.empty",
+                      "color": "gray",
+                      "italic": false,
+                      "font": "minecraft:default"
+                    }
+                  ]
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "translate": "lore.bugnet.tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "font": "bugnet:tooltip",
+                  "with": [
+                    {
+                      "translate": "pack.bugnet",
+                      "color": "#666666",
+                      "italic": true,
+                      "font": "minecraft:default"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

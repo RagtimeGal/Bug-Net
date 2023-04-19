@@ -1,6 +1,0 @@
-{
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "rag_net:item/bug_net_captured"
-    }
-}

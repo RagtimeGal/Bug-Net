@@ -10,9 +10,9 @@
       },
       {
         "color": "#666666",
-        "text": "v0.2"
+        "text": "v1.0.0"
       }
     ],
-    "pack_format": 9
+    "pack_format": 13
   }
 }
