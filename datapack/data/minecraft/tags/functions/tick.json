@@ -1,3 +1,5 @@
 {
-		"values":["rag_net:technical/tick"]
+	"values": [
+		"bugnet:technical/tick"
+	]
 }

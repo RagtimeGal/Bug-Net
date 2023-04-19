@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "bugnet:entity/player/initiate"
+    },
+    "parent": "bugnet:technical/root"
+  }

@@ -1,3 +1,5 @@
 {
-		"values":["rag_net:technical/load"]
+	"values": [
+		"bugnet:technical/load"
+	]
 }
