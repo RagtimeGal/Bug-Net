@@ -3,4 +3,4 @@
 ####################
 
 ## Non-Spectator
-execute if entity @s[gamemode=!spectator] run function bugnet:entity/player/tick/non_spectators
+execute if entity @s[gamemode=!spectator,predicate=bugnet:entity/holding/bug_net] run function bugnet:item/bug_net/holding
