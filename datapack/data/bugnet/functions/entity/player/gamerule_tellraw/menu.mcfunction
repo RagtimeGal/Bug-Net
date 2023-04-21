@@ -6,7 +6,6 @@ execute store result score #temp_0 bugnet.dummy run data get storage bugnet:stor
 execute store result score #temp_1 bugnet.dummy run data get storage bugnet:storage root.gamerules.capturemediummobs
 execute store result score #temp_2 bugnet.dummy run data get storage bugnet:storage root.gamerules.capturelargemobs
 execute store result score #temp_3 bugnet.dummy run data get storage bugnet:storage root.gamerules.capturebosses
-execute store result score #temp_4 bugnet.dummy run data get storage bugnet:storage root.gamerules.captureplayers
 
 tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",{"translate":"chat.bugnet.gamerules.title", "bold":true, "color":"#FFAA00"},"\n"]
 
@@ -21,8 +20,5 @@ execute if score #temp_2 bugnet.dummy matches 1.. run tellraw @s [{"translate":"
 
 execute unless score #temp_3 bugnet.dummy matches 1.. run tellraw @s [{"translate":"chat.bugnet.gamerules.capturebosses", "color":"#007acc", "hoverEvent":{"action":"show_text", "contents":[{"translate":"chat.bugnet.gamerules.capturebosses.description"},"\n",{"translate":"chat.bugnet.gamerules.default_false", "color":"aqua"}]}}," ",{"translate":"chat.bugnet.gamerules.false", "color":"red", "clickEvent":{"action":"run_command", "value":"/function bugnet:entity/player/gamerule_tellraw/toggle/capturebosses"}}]
 execute if score #temp_3 bugnet.dummy matches 1.. run tellraw @s [{"translate":"chat.bugnet.gamerules.capturebosses", "color":"#007acc", "hoverEvent":{"action":"show_text", "contents":[{"translate":"chat.bugnet.gamerules.capturebosses.description"},"\n",{"translate":"chat.bugnet.gamerules.default_false", "color":"aqua"}]}}," ",{"translate":"chat.bugnet.gamerules.true", "color":"green", "clickEvent":{"action":"run_command", "value":"/function bugnet:entity/player/gamerule_tellraw/toggle/capturebosses"}}]
-
-execute unless score #temp_4 bugnet.dummy matches 1.. run tellraw @s [{"translate":"chat.bugnet.gamerules.captureplayers", "color":"#007acc", "hoverEvent":{"action":"show_text", "contents":[{"translate":"chat.bugnet.gamerules.captureplayers.description"},"\n",{"translate":"chat.bugnet.gamerules.default_false", "color":"aqua"}]}}," ",{"translate":"chat.bugnet.gamerules.false", "color":"red", "clickEvent":{"action":"run_command", "value":"/function bugnet:entity/player/gamerule_tellraw/toggle/captureplayers"}}]
-execute if score #temp_4 bugnet.dummy matches 1.. run tellraw @s [{"translate":"chat.bugnet.gamerules.captureplayers", "color":"#007acc", "hoverEvent":{"action":"show_text", "contents":[{"translate":"chat.bugnet.gamerules.captureplayers.description"},"\n",{"translate":"chat.bugnet.gamerules.default_false", "color":"aqua"}]}}," ",{"translate":"chat.bugnet.gamerules.true", "color":"green", "clickEvent":{"action":"run_command", "value":"/function bugnet:entity/player/gamerule_tellraw/toggle/captureplayers"}}]
 
 function bugnet:entity/player/gamerule_tellraw/no_feedback_chat_message/load
