@@ -8,7 +8,6 @@ ride @s dismount
 ## Modify Storage
 data modify storage bugnet:storage root.temp.item.tag.bugnet.entity set from entity @s
 data remove storage bugnet:storage root.temp.item.tag.bugnet.entity.Pos
-data remove storage bugnet:storage root.temp.item.tag.bugnet.entity.Rotation
 data remove storage bugnet:storage root.temp.item.tag.bugnet.entity.Motion
 data modify storage bugnet:storage root.temp.item.tag.bugnet.full set value 1
 function bugnet:item/bug_net/pickup/figure_entity
