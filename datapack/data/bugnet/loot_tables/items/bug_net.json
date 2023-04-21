@@ -23,16 +23,14 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "lore.bugnet.item.bug_net.empty",
-                  "color": "white",
+                  "translate": "lore.bugnet.item.bug_net.captured",
+                  "color": "gray",
                   "italic": false,
-                  "font": "bugnet:entity_ensigna",
                   "with": [
                     {
-                      "translate": "lore.bugnet.item.empty",
+                      "translate": "lore.bugnet.item.bug_net.empty",
                       "color": "gray",
-                      "italic": false,
-                      "font": "minecraft:default"
+                      "italic": true
                     }
                   ]
                 },

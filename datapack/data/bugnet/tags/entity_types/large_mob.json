@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:donkey",
+    "minecraft:enderman",
+    "minecraft:ghast",
+    "minecraft:hoglin",
+    "minecraft:horse",
+    "minecraft:iron_golem",
+    "minecraft:mule",
+    "minecraft:panda",
+    "minecraft:polar_bear",
+    "minecraft:ravager",
+    "minecraft:skeleton_horse",
+    "minecraft:zoglin",
+    "minecraft:zombie_horse"
+  ]
+}

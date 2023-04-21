@@ -1,0 +1,55 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "bugnet:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag",
+        "target": "{}",
+        "op": "merge"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "lore.bugnet.item.bug_net.captured",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "selector": "@s",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "text": ""
+      },
+      {
+        "translate": "lore.bugnet.tooltip",
+        "color": "white",
+        "italic": false,
+        "font": "bugnet:tooltip",
+        "with": [
+          {
+            "translate": "pack.bugnet",
+            "color": "#666666",
+            "italic": true,
+            "font": "minecraft:default"
+          }
+        ]
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:409998}"
+  }
+]
