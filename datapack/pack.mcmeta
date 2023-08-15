@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 17,
+    "pack_format": 15,
     "description": [
       {
         "text": "Bug Net",
@@ -18,7 +18,7 @@
   "overlays" : {
     "entries": [
       {
-        "formats": 17,
+        "formats": 15,
         "directory": "versioning"
       }
     ]
