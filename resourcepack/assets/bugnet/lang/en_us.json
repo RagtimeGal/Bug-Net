@@ -16,6 +16,7 @@
   "chat.bugnet.gamerules.true": "[On]",
   "chat.bugnet.gamerules.default_false": "Default: Off",
   "chat.bugnet.gamerules.default_true": "Default: On",
+  "chat.bugnet.gamerules.default.stacksize": "Default: 2",
   "chat.bugnet.gamerules.capturesmallmobs": "Capture Small Mobs",
   "chat.bugnet.gamerules.capturesmallmobs.description": "Toggle whether entities with the small_mob identifier can be captured",
   "chat.bugnet.gamerules.capturemediummobs": "Capture Medium Mobs",
@@ -24,10 +25,17 @@
   "chat.bugnet.gamerules.capturelargemobs.description": "Toggle whether entities with the large_mob identifier can be captured",
   "chat.bugnet.gamerules.capturebosses": "Capture Bosses",
   "chat.bugnet.gamerules.capturebosses.description": "Toggle whether entities with the boss identifier can be captured",
-  "chat.bugnet.gamerules.captureplayers": "Capture Players",
-  "chat.bugnet.gamerules.captureplayers.description": "Toggle whether players can be captured",
+  "chat.bugnet.gamerules.stacksize": "Maximum Viable Stack: ",
+  "chat.bugnet.gamerules.stacksize.description": "How many mobs can sit ontop of the base vehicle",
+  "chat.bugnet.gamerules.stacksize.none": "None",
+  "chat.bugnet.gamerules.stacksize.half": "Half",
+  "chat.bugnet.gamerules.stacksize.subtract_one": "-1",
+  "chat.bugnet.gamerules.stacksize.add_one": "+1",
+  "chat.bugnet.gamerules.stacksize.double": "Double",
+  "chat.bugnet.gamerules.stacksize.infinite": "Infinite",
 
   "actionbar.bug_net.fail": "This creature cannot be captured",
+  "actionbar.bug_net.stacksize": "This stack of Mobs is too high",
   
   "item.bugnet.bug_net": "Bug Net",
 

@@ -14,6 +14,8 @@ execute if data storage bugnet:storage root.temp.item.tag.bugnet{entity_id:"mine
 execute if data storage bugnet:storage root.temp.item.tag.bugnet{entity_id:"minecraft:blaze"} positioned ~ ~0.1 ~ summon minecraft:blaze run data modify entity @s {} merge from storage bugnet:storage root.temp.item.tag.bugnet.entity
 ## Cat
 execute if data storage bugnet:storage root.temp.item.tag.bugnet{entity_id:"minecraft:cat"} positioned ~ ~0.1 ~ summon minecraft:cat run data modify entity @s {} merge from storage bugnet:storage root.temp.item.tag.bugnet.entity
+## Camel
+execute if data storage bugnet:storage root.temp.item.tag.bugnet{entity_id:"minecraft:camel"} positioned ~ ~0.1 ~ summon minecraft:camel run data modify entity @s {} merge from storage bugnet:storage root.temp.item.tag.bugnet.entity
 ## Cave Spider
 execute if data storage bugnet:storage root.temp.item.tag.bugnet{entity_id:"minecraft:cave_spider"} positioned ~ ~0.1 ~ summon minecraft:cave_spider run data modify entity @s {} merge from storage bugnet:storage root.temp.item.tag.bugnet.entity
 ## Chicken

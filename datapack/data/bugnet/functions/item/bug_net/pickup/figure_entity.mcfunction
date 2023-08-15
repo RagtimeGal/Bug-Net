@@ -14,6 +14,8 @@ execute if entity @s[type=minecraft:bee] run data modify storage bugnet:storage 
 execute if entity @s[type=minecraft:blaze] run data modify storage bugnet:storage root.temp.item.tag.bugnet.entity_id set value "minecraft:blaze"
 ## Cat
 execute if entity @s[type=minecraft:cat] run data modify storage bugnet:storage root.temp.item.tag.bugnet.entity_id set value "minecraft:cat"
+## Camel
+execute if entity @s[type=minecraft:camel] run data modify storage bugnet:storage root.temp.item.tag.bugnet.entity_id set value "minecraft:camel"
 ## Cave Spider
 execute if entity @s[type=minecraft:cave_spider] run data modify storage bugnet:storage root.temp.item.tag.bugnet.entity_id set value "minecraft:cave_spider"
 ## Chicken

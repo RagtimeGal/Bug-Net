@@ -8,4 +8,4 @@ scoreboard objectives add bugnet.fungusstick minecraft.used:minecraft.warped_fun
 
 ## Run on Load
 tellraw @a[predicate=bugnet:entity/debug_player] [{"translate":"debug.prefix","color":"yellow","bold":true},{"translate":"commands.bugnet.reload.success","color":"white","bold":false}]
-execute unless score #server_version bugnet.dummy matches 100 run function bugnet:technical/initiate
+execute unless score #server_version bugnet.dummy matches 101 run function bugnet:technical/initiate
