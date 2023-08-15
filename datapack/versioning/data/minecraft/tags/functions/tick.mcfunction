@@ -1,0 +1,5 @@
+{
+  "values": [
+    "bugnet:technical/tick"
+  ]
+}

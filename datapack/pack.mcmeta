@@ -1,18 +1,26 @@
 {
   "pack": {
+    "pack_format": 17,
     "description": [
       {
-        "color": "#666666",
-        "text": "Bug Net"
+        "text": "Bug Net",
+        "color": "#666666"
       },
       {
         "text": "\n"
       },
       {
-        "color": "#666666",
-        "text": "v1.0.1"
+        "text": "v1.0.1",
+        "color": "#666666"
       }
-    ],
-    "pack_format": 17
+    ]
+  },
+  "overlays" : {
+    "entries": [
+      {
+        "formats": 17,
+        "directory": "versioning"
+      }
+    ]
   }
 }

@@ -8,7 +8,7 @@
 
   "commands.bugnet.reload.success": " Reloaded Bug Net",
   "commands.bugnet.initiate": "%s is enabled.",
-  "commands.bugnet.wrong_version: You are using Bug Net on the incorrect Minecraft version. Please check the download.": "\nYou are using Bug Net on the incorrect Minecraft version. Please check the download.",
+  "commands.bugnet.wrong_version": "\nYou are using Bug Net on the incorrect Minecraft version. You should be using Minecraft 1.20.2.",
   "commands.bugnet.initiate.wrong_version.title": "WRONG VERSION",
 
   "chat.bugnet.gamerules.title": "Bug Net Gamerules",
