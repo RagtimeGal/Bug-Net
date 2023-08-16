@@ -10,7 +10,7 @@ data modify storage bugnet:storage root.temp.item.tag.bugnet.entity set from ent
 data remove storage bugnet:storage root.temp.item.tag.bugnet.entity.Pos
 data remove storage bugnet:storage root.temp.item.tag.bugnet.entity.Motion
 data modify storage bugnet:storage root.temp.item.tag.bugnet.full set value 1
-function bugnet:item/bug_net/pickup/figure_entity
+execute as @s at @s run function bugnet:item/bug_net/pickup/figure_entity
 ## Kill Entity
 tp @s ~ -666 ~
 kill @s

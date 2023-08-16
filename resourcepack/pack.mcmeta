@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 15,
+    "pack_format": 17,
     "description": [
       {
         "color": "#666666",
@@ -11,7 +11,7 @@
       },
       {
         "color": "#666666",
-        "text": "v1.0.1"
+        "text": "v1.1.0"
       }
     ]
   }
